@@ -37,7 +37,6 @@ if __name__ == "__main__":
         "holmes looked at the",
         "the man was standing"
     ]
-
     for seed in seeds:
         print("\nInput:", seed)
         print("Output:", generate_text(model, seed))
